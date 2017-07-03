@@ -43,7 +43,7 @@ Our game mechanics are mostly faithful to the 1984 original (which is studied in
 
 ### Solutions
 
-A solution is a JS module with no dependencies. It must export a single function:
+A solution is a Node.js module with no dependencies. It must export a single function:
 
 ```javascript
 play(screen)
