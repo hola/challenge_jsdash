@@ -378,7 +378,7 @@ class Game {
             if (this.log.streaks)
                 console.log(`Hot streaks: ${this.log.streaks}`);
             if (this.log.longest_streak)
-                console.log(`Longest streak: ${this.log.streaks}`);
+                console.log(`Longest streak: ${this.log.longest_streak}`);
             this.log.duration_frames = this.log.commands.length;
             let duration = `${this.log.duration_frames} frames`;
             if (this.log.interval)
