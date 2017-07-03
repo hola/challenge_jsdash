@@ -29,6 +29,8 @@ Your goal in this contest is to write a program that plays this game, making dec
 
 We recommend that you run [game/jsdash.js](game/jsdash.js) and play a few times before reading further. (Note: we developed and tested the game with xterm on Linux. It may or may not work in other environments.)
 
+See also the [Russian version](https://habrahabr.ru/company/hola/blog/332176/) of this page.
+
 ### The game
 
 You can move with arrow keys in four directions. The green `A` marks your position in the cave. You can move through empty space and dirt (`:`), push boulders (`O`) horizontally into empty space, and collect diamonds (`*`). Brick (`+`) and steel (`#`) walls are impassable. Boulders and diamonds fall when left without support, and they roll off brick walls and each other. Falling objects kill you. Butterflies (animated between `/|\-`) explode when you touch them, when hit by a falling object, or when confined to a space where they cannot move. An exploding butterfly consumes all materials except steel and can kill you, but if you survive an explosion, it turns into diamonds which you can collect.
