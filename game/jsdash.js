@@ -61,7 +61,7 @@ Keyboard controls:
 const generation_opts = ['seed', 'geometry', 'butterflies', 'freq-space',
     'freq-dirt', 'freq-brick', 'freq-steel', 'freq-boulder', 'freq-diamond'];
 
-const REQUIRED_NODE_VERSION = undefined; // 'v7.9.0';
+const REQUIRED_NODE_VERSION = 'v8.1.3';
 
 class Game {
     constructor(opt){
