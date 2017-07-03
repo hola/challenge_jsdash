@@ -49,7 +49,7 @@ A solution is a Node.js module with no dependencies. It must export a single fun
 play(screen)
 ```
 
-The module will be loaded, and this function will be called once, with the initial state of the game screen passed into the `screen` argument. It will be an array of strings, one for each row of the screen, including the status line. The strings will contain exactly what you see on the screen while playing, just without the ANSI escape sequences for colors (try the `--no-color command` line option to see the game that way on the console).
+The module will be loaded, and this function will be called once, with the initial state of the game screen passed into the `screen` argument. It will be an array of strings, one for each row of the screen, top to bottom, including the status line. The strings will contain exactly what you see on the screen while playing, just without the ANSI escape sequences for colors (try the `--no-color command` line option to see the game that way on the console).
 
 The play function must be a generator. To make a move, it should yield `'u'`, `'d'`, `'r'` or `'l'` to move up, down, right or left, respectively. It can also yield `'q'` or simply return to end the game sooner (it will then keep the accumulated score). Yielding anything else means that you decide to stay in place for now. It is legal to attempt an impossible move (such as walking into a wall): the character will simply stay in place. After every yield, the contents of the `screen` array change, and your code can examine it again to see the current state.
 
