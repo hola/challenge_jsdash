@@ -147,6 +147,7 @@ class Butterfly extends Thing {
     constructor(world){
         super(world);
         this.dir = UP;
+        this.alive = true;
     }
     get_char(){ return '/|\\-'[this.world.frame%4]; }
     get_color(){ return '1;35'; } // bright magenta on black
@@ -178,8 +179,12 @@ class Butterfly extends Thing {
             this.dir = cw(this.dir);
     }
     is_consumable(){ return true; }
-    hit(){ this.explode(); }
+    hit(){
+        if (this.alive)
+            this.explode();
+    }
     explode(){
+        this.alive = false;
         let x1 = this.point.x-1, x2 = this.point.x+1;
         let y1 = this.point.y-1, y2 = this.point.y+1;
         for (let y = y1; y<=y2; y++)
