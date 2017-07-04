@@ -132,6 +132,34 @@ class AI extends Controller {
     }
 }
 
+class InProcessAI extends Controller {
+    constructor(script){
+        super();
+        this.script = script;
+        this.wrapper = undefined;
+    }
+    init(){
+        try {
+            this.wrapper = loader.load_unsafe(this.script);
+        } catch (e){
+            return this.emit('error', String(e.stack));
+        }
+        this.emit('ready');
+    }
+    onupdate(screen){
+        let res;
+        try {
+            res = this.wrapper(screen);
+        } catch(e){
+            return this.emit('error', String(e.stack));
+        }
+        if (res.done || res.value=='q')
+            this.emit('quit');
+        else
+            this.emit('control', char2dir(res.value));
+    }
+}
+
 class Replay extends Controller {
     constructor(commands){
         super();
@@ -148,4 +176,4 @@ class Replay extends Controller {
     }
 }
 
-module.exports = {Keyboard, AI, Replay};
+module.exports = {Keyboard, AI, InProcessAI, Replay};

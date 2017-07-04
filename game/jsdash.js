@@ -33,6 +33,8 @@ const getopt = require('node-getopt').create([
     ['T', 'frames=N', 'time limit in frames (default: 1200)'],
     ['C', 'no-color', 'do not use ANSI coloring on the console'],
     ['u', 'unsafe', 'use unsafe solution loader without VM'],
+    ['p', 'in-process',
+        'run AI script in-process for easier debugging (implies --unsafe)'],
     ['f', 'force', 'override Node.js version check'],
     ['q', 'quiet', 'do not render the game on the console (--ai mode only)'],
     ['h', 'help', 'show this text'],
@@ -210,13 +212,20 @@ class Game {
             this.no_color = true;
         if (opt.ai)
         {
-            this.controller = new controller.AI(opt.ai,
-                {unsafe: !!opt.unsafe, interval: this.interval});
+            if (opt['in-process'])
+                this.controller = new controller.InProcessAI(opt.ai);
+            else
+            {
+                this.controller = new controller.AI(opt.ai,
+                    {unsafe: !!opt.unsafe, interval: this.interval});
+            }
             this.log.controller = 'script';
             this.log.script = opt.ai;
         }
         else if (opt.unsafe)
             this.die('--unsafe requires --ai');
+        else if (opt['in-process'])
+            this.die('--in-process requires --ai');
         if (opt.quiet || !process.stdout.isTTY)
         {
             if (!opt.ai)
