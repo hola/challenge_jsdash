@@ -86,6 +86,8 @@ jsdash.js --replay=log.json
 
 All submissions will be tested on Ubuntu 14.04 (amd64) on a [c3.large](https://aws.amazon.com/ru/ec2/instance-types/#c3) Amazon AWS instance, one after another, with no other load on the machine.
 
+Bugs reported by participants are getting fixed; please follow [game/CHANGELOG.md](game/CHANGELOG.md) to stay updated.
+
 ### Submitting your solution
 
 Please submit your solutions using [this form](https://hola.org/challenges/jsdash). We don't accept submissions by email.
