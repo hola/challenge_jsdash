@@ -56,9 +56,9 @@ class Keyboard extends Controller {
 }
 
 class AI extends Controller {
-    constructor(script, {unsafe, interval}){
+    constructor(script, unsafe){
         super();
-        this.worker = cluster.fork({script, unsafe, interval});
+        this.worker = cluster.fork({script, unsafe});
         this._onmessage = this.onmessage.bind(this);
         this._ononline = this.ononline.bind(this);
         this._onerror = this.onerror.bind(this);
@@ -70,29 +70,43 @@ class AI extends Controller {
         this.worker.addListener('disconnect', this._ondisconnect);
         this.worker.addListener('exit', this._onexit);
         this.report = {};
+        this.dropped = 0;
+        this.control_pending = [];
+        this.control_issued = false;
     }
     init(){}
-    onupdate(screen){ this.worker.send({screen, now: Date.now()}); }
+    onupdate(screen){
+        this.control_issued = false;
+        if (this.control_pending.length)
+        {
+            this.dropped++;
+            this.handle_control(this.control_pending.shift());
+        }
+        else
+            this.worker.send(screen);
+    }
     onmessage(msg){
         if (msg.report)
-            this.report = msg.report;
+            this.report = Object.assign(msg.report, {dropped: this.dropped});
         if (msg.error)
             this.emit('error', String(msg.error));
-        else if (msg.res.done)
-            this.emit('quit');
+        else if (this.control_issued)
+            this.control_pending.push(msg.res);
         else
-        {
-            if (msg.res.value=='q')
-                this.emit('quit');
-            else
-                this.emit('control', char2dir(msg.res.value));
-        }
+            this.handle_control(msg.res);
     }
     ononline(){ this.emit('ready'); }
     onerror(err){ this.emit('error', err); }
     ondisconnect(){ this.emit('error', 'disconnect'); }
     onexit(code, signal){
         this.emit('error', signal || `exited with code ${code}`);
+    }
+    handle_control(c){
+        this.control_issued = true;
+        if (c.done || c.value=='q')
+            this.emit('quit');
+        else
+            this.emit('control', char2dir(c.value));
     }
     destroy(){
         this.worker.removeListener('message', this._onmessage);
@@ -107,18 +121,12 @@ class AI extends Controller {
     static worker_run(){
         let ai, res;
         let load = +process.env.unsafe ? loader.load_unsafe : loader.load;
-        let interval = +process.env.interval;
         let started = Date.now();
         try { ai = load(process.env.script);
         } catch(e){ return process.send({error: String(e.stack)}); }
-        let report = {processed: 0, dropped: 0,
-            init_ms: Date.now()-started, total_ms: 0, max_ms: 0};
-        process.on('message', ({screen, now})=>{
-            if (interval && Date.now()-now >= interval && report.processed)
-            {
-                report.dropped++;
-                return; // skip missed frame (except the very first one)
-            }
+        let report = {processed: 0, init_ms: Date.now()-started,
+            total_ms: 0, max_ms: 0};
+        process.on('message', screen=>{
             started = Date.now();
             try { res = ai(screen);
             } catch(e){ return process.send({error: String(e.stack)}); }

@@ -215,10 +215,7 @@ class Game {
             if (opt['in-process'])
                 this.controller = new controller.InProcessAI(opt.ai);
             else
-            {
-                this.controller = new controller.AI(opt.ai,
-                    {unsafe: !!opt.unsafe, interval: this.interval});
-            }
+                this.controller = new controller.AI(opt.ai, !!opt.unsafe);
             this.log.controller = 'script';
             this.log.script = opt.ai;
         }
