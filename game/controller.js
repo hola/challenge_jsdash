@@ -58,7 +58,7 @@ class Keyboard extends Controller {
 class AI extends Controller {
     constructor(script, unsafe){
         super();
-        this.worker = cluster.fork({script, unsafe});
+        this.worker = cluster.fork({script, unsafe: +unsafe});
         this._onmessage = this.onmessage.bind(this);
         this._ononline = this.ononline.bind(this);
         this._onerror = this.onerror.bind(this);

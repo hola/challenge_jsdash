@@ -1,5 +1,9 @@
 # Changelog
 
+## 2017-07-06
+
+* Fixed --unsafe option being ignored
+
 ## 2017-07-05
 
 * Fixed a bug where frames were not dropped when they should be, and some input ended up getting ignored
