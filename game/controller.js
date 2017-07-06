@@ -71,42 +71,34 @@ class AI extends Controller {
         this.worker.addListener('exit', this._onexit);
         this.report = {};
         this.dropped = 0;
-        this.control_pending = [];
-        this.control_issued = false;
+        this.busy = false;
     }
     init(){}
     onupdate(screen){
-        this.control_issued = false;
-        if (this.control_pending.length)
-        {
+        if (this.busy)
             this.dropped++;
-            this.handle_control(this.control_pending.shift());
-        }
         else
+        {
+            this.busy = true;
             this.worker.send(screen);
+        }
     }
     onmessage(msg){
+        this.busy = false;
         if (msg.report)
             this.report = Object.assign(msg.report, {dropped: this.dropped});
         if (msg.error)
             this.emit('error', String(msg.error));
-        else if (this.control_issued)
-            this.control_pending.push(msg.res);
+        else if (msg.res.done || msg.res.value=='q')
+            this.emit('quit');
         else
-            this.handle_control(msg.res);
+            this.emit('control', char2dir(msg.res.value));
     }
     ononline(){ this.emit('ready'); }
     onerror(err){ this.emit('error', err); }
     ondisconnect(){ this.emit('error', 'disconnect'); }
     onexit(code, signal){
         this.emit('error', signal || `exited with code ${code}`);
-    }
-    handle_control(c){
-        this.control_issued = true;
-        if (c.done || c.value=='q')
-            this.emit('quit');
-        else
-            this.emit('control', char2dir(c.value));
     }
     destroy(){
         this.worker.removeListener('message', this._onmessage);

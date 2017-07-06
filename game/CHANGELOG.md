@@ -3,6 +3,7 @@
 ## 2017-07-06
 
 * Fixed --unsafe option being ignored
+* Fixed a bug where the generator would sometimes see old screen states
 
 ## 2017-07-05
 
