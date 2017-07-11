@@ -1,5 +1,9 @@
 # Changelog
 
+## 2017-07-11
+
+* Fixed crash when the AI script ended with a single-line comment without a trailing newline
+
 ## 2017-07-06
 
 * Fixed --unsafe option being ignored

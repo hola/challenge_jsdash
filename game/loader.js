@@ -19,7 +19,7 @@ function load(script){
     const id = '__hola_xyzzy__';
     let text = fs.readFileSync(script, 'utf8');
     // strip BOM and/or shebang
-    text = text.slice(/^\ufeff?(#![^\r\n]*)?/.exec(text)[0].length);
+    text = text.slice(/^\ufeff?(#![^\r\n]*)?/.exec(text)[0].length)+'\n';
     let m = {exports: {}};
     let console = Object.create(global.console);
     console.log = console.info = ()=>{}; // silence debug logging
