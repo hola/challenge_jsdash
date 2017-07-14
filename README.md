@@ -7,6 +7,12 @@ Welcome to Hola programming challenge!
 3. Third prize: 1000 USD.
 4. If you email the link to this page to someone, with challengejs@hola.org in CC, and they enter the competition and win a prize, you will receive half the amount they get (only the first referrer per participant).
 
+## UPDATE: [Prelimiary standings](blog/02-preliminary-standings-2017-07-14.md)
+
+The contest is not over, but those who have submitted solutions so far can already see how their AI compares to others'.
+
+*Published on July 14, 2017*
+
 ## Rules
 
 * Submit your solution to our [form](https://hola.org/challenges/jsdash). Do not send solutions by e-mail!
