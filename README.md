@@ -11,7 +11,7 @@ Welcome to Hola programming challenge!
 
 The contest is not over, but those who have submitted solutions so far can already see how their AI compares to others'.
 
-*Published on July 14, 2017*
+*Published on July 14, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/333390/))*
 
 ## Rules
 

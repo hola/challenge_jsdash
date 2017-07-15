@@ -2,6 +2,8 @@
 
 # Preliminary Standings as of July 14, 2017
 
+*See also the [Russian version](https://habrahabr.ru/company/hola/blog/333390/) of this page.*
+
 Thanks to all the participants! So far, we have received 11 submissions from 10 unique participants.
 
 We know that many of you are curious about how your solutions compare to the others'. Although we are not providing a live leaderboard, we can definitely test the solutions we already received, and show you how they measure against one another. Of course, there is plenty of time until the deadline, so the leaderboard can change dramatically as we receive new submissions. We'll publish more updates like this one if we keep receiving more solutions.
