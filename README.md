@@ -79,7 +79,7 @@ We will use the same set of pseudo-random seeds for every submission to make sur
 
 
 ```
-jsdash.js --ai=submission.js --log=log.json
+jsdash.js --ai=submission.js --log=log.json --seed=N
 ```
 
 However, you might want to explore the various command line options which might help you test and debug your solution.
