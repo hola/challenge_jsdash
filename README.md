@@ -15,6 +15,8 @@ The contest is extended until **August 17**.
 
 A new installment of preliminary test results.
 
+*Published on July 26, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/334186/))*
+
 ## UPDATE: [Prelimiary standings 1](blog/02-preliminary-standings-2017-07-14.md)
 
 The contest is not over, but those who have submitted solutions so far can already see how their AI compares to others'.
