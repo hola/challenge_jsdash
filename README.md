@@ -7,7 +7,15 @@ Welcome to Hola programming challenge!
 3. Third prize: 1000 USD.
 4. If you email the link to this page to someone, with challengejs@hola.org in CC, and they enter the competition and win a prize, you will receive half the amount they get (only the first referrer per participant).
 
-## UPDATE: [Prelimiary standings](blog/02-preliminary-standings-2017-07-14.md)
+## ANNOUNCEMENT
+
+The contest is extended until **August 17**.
+
+## UPDATE: [Prelimiary standings 2](blog/03-preliminary-standings-2017-07-26.md)
+
+A new installment of preliminary test results.
+
+## UPDATE: [Prelimiary standings 1](blog/02-preliminary-standings-2017-07-14.md)
 
 The contest is not over, but those who have submitted solutions so far can already see how their AI compares to others'.
 
@@ -16,8 +24,8 @@ The contest is not over, but those who have submitted solutions so far can alrea
 ## Rules
 
 * Submit your solution to our [form](https://hola.org/challenges/jsdash). Do not send solutions by e-mail!
-* Submission deadline: **July 31, 2017**, 23:59:59 UTC.
-* Preliminary results will be published on **August 7, 2017**, and final results on **August 15, 2017**.
+* Submission deadline: **August 17, 2017**, 23:59:59 UTC.
+* Preliminary results will be published on **August 24, 2017**, and final results on **August 31, 2017**.
 * You may submit more than once. Only your latest submission, as long as it's still before the deadline, will be evaluated.
 * We will use **Node.js v8.1.3** (current at the time of this publication) for testing. You can use any language features supported by the interpreter in its default configuration.
 * Your code must all be in a **single JS file**.

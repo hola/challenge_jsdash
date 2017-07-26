@@ -1,4 +1,4 @@
-*[Previous post](../README.md)*
+*[Previous post](../README.md)* | *[Next post](03-preliminary-standings-2017-07-26.md)*
 
 # Preliminary Standings as of July 14, 2017
 
