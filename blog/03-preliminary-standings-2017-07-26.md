@@ -2,6 +2,8 @@
 
 # Preliminary Standings as of July 26, 2017
 
+*See also the [Russian version](https://habrahabr.ru/company/hola/blog/334186/) of this page.*
+
 Thanks to all the participants! So far, we have received 39 submissions from 26 unique participants.
 
 The contest is extended! Solutions are now accepted until **August 17, 2017**, 23:59:59 UTC.
