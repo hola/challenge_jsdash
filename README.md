@@ -11,13 +11,19 @@ Welcome to Hola programming challenge!
 
 The contest is extended until **August 17**.
 
-## UPDATE: [Prelimiary standings 2](blog/03-preliminary-standings-2017-07-26.md)
+## UPDATE: [Preliminary standings 3](blog/04-preliminary-standings-2017-08-10.md)
+
+The last installment of preliminary test results. Only one week left to go!
+
+Also, we are announcing the method that will be used to generate seeds for the final testing.
+
+## UPDATE: [Preliminary standings 2](blog/03-preliminary-standings-2017-07-26.md)
 
 A new installment of preliminary test results.
 
 *Published on July 26, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/334186/))*
 
-## UPDATE: [Prelimiary standings 1](blog/02-preliminary-standings-2017-07-14.md)
+## UPDATE: [Preliminary standings 1](blog/02-preliminary-standings-2017-07-14.md)
 
 The contest is not over, but those who have submitted solutions so far can already see how their AI compares to others'.
 
