@@ -87,8 +87,8 @@ class AI extends Controller {
         this.busy = false;
         if (msg.report)
             this.report = Object.assign(msg.report, {dropped: this.dropped});
-        if (msg.error)
-            this.emit('error', String(msg.error));
+        if ('error' in msg)
+            this.emit('error', String(msg.error||'Runtime error'));
         else if (msg.res.done || msg.res.value=='q')
             this.emit('quit');
         else
@@ -115,13 +115,13 @@ class AI extends Controller {
         let load = +process.env.unsafe ? loader.load_unsafe : loader.load;
         let started = Date.now();
         try { ai = load(process.env.script);
-        } catch(e){ return process.send({error: String(e.stack)}); }
+        } catch(e){ return process.send({error: String(e.stack||e)}); }
         let report = {processed: 0, init_ms: Date.now()-started,
             total_ms: 0, max_ms: 0};
         process.on('message', screen=>{
             started = Date.now();
             try { res = ai(screen);
-            } catch(e){ return process.send({error: String(e.stack)}); }
+            } catch(e){ return process.send({error: String(e.stack||e)}); }
             let ms = Date.now()-started;
             report.processed++;
             report.total_ms += ms;
@@ -142,7 +142,7 @@ class InProcessAI extends Controller {
         try {
             this.wrapper = loader.load_unsafe(this.script);
         } catch (e){
-            return this.emit('error', String(e.stack));
+            return this.emit('error', String(e.stack||e));
         }
         this.emit('ready');
     }
@@ -151,7 +151,7 @@ class InProcessAI extends Controller {
         try {
             res = this.wrapper(screen);
         } catch(e){
-            return this.emit('error', String(e.stack));
+            return this.emit('error', String(e.stack||e));
         }
         if (res.done || res.value=='q')
             this.emit('quit');
