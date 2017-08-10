@@ -2,6 +2,8 @@
 
 # Preliminary Standings as of August 10, 2017
 
+*See also the [Russian version](https://habrahabr.ru/company/hola/blog/335376/) of this page.*
+
 Thanks to all the participants! So far, we have received 60 submissions from 34 unique participants.
 
 This is the last installment of preliminary results. Only one week left to change the tide! Solutions are accepted until **August 17, 2017**, 23:59:59 UTC.

@@ -17,6 +17,8 @@ The last installment of preliminary test results. Only one week left to go!
 
 Also, we are announcing the method that will be used to generate seeds for the final testing.
 
+*Published on August 10, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/335376/))*
+
 ## UPDATE: [Preliminary standings 2](blog/03-preliminary-standings-2017-07-26.md)
 
 A new installment of preliminary test results.
