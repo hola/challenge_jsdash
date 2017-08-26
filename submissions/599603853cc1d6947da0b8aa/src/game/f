@@ -1,0 +1,7 @@
+if (surrounded(player)) {
+  player.char = 'O';
+  player = prev_position;
+  player.char = 'A';
+  target = find_item(grid, player, '*' );
+  build_path(grid, player, target);
+}

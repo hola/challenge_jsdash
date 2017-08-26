@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+rm results/*
+
+for file in  ./tests/*.js
+do
+	botjs="$file"
+	bot=`basename $botjs .js`
+	results="./tests/$bot.log"
+	
+	echo "Bot        : $bot"
+	echo "Results at : $results"
+	if [ -f $results ]; then
+		echo "    results exist, skip test"
+	else
+		echo "" > $results
+		echo "Bot file: $botjs" >> $results
+		echo "----------------------" >> $results
+		for file in ./seeds/*
+		do
+			seed=`basename $file`
+			echo "    seed $seed"
+			node jsdash.js -a $botjs -s $seed  -q >> $results
+			echo "----" >> $results
+		done
+	fi
+done
+
+php -f test_results.php > ./tests/results.txt

@@ -1,0 +1,13 @@
+{
+  "name": "challengestorm",
+  "version": "0.0.0",
+  //"private": true,
+  //"scripts": {
+  //  "start": "node ./bin/www"
+  //},
+  "main": "app.js",
+  "dependencies": {
+    "node-getopt": "^0.2.3",
+    "random-js": "^1.0.8"
+  }
+}

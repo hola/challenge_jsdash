@@ -1,4 +1,4 @@
-*[Previous post](03-preliminary-standings-2017-07-26.md)*
+*[Previous post](03-preliminary-standings-2017-07-26.md)* | *[Next post](05-final-standings.md)*
 
 # Preliminary Standings as of August 10, 2017
 

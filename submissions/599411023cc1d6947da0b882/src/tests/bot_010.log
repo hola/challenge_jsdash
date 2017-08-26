@@ -1,0 +1,98 @@
+
+Bot file: ./tests/bot_010.js
+----------------------
+Game over
+Score: 166
+Diamonds collected: 49
+Butterflies killed: 2
+Hot streaks: 5
+Longest streak: 21
+Duration: 1200 frames, 120 seconds
+Cave: seed 4004
+----
+Game ended by the player
+Score: 278
+Diamonds collected: 61
+Butterflies killed: 3
+Hot streaks: 5
+Longest streak: 33
+Duration: 966 frames, 96.6 seconds
+Cave: seed 8008
+----
+Game over
+Score: 145
+Diamonds collected: 34
+Butterflies killed: 1
+Hot streaks: 2
+Longest streak: 26
+Duration: 478 frames, 47.8 seconds
+Cave: seed 80186
+----
+Game over
+Score: 70
+Diamonds collected: 29
+Hot streaks: 2
+Longest streak: 12
+Duration: 1200 frames, 120 seconds
+Cave: seed 80188
+----
+Game ended by the player
+Score: 144
+Diamonds collected: 39
+Butterflies killed: 2
+Hot streaks: 5
+Longest streak: 18
+Duration: 385 frames, 38.5 seconds
+Cave: seed 80286
+----
+Game over
+Score: 7
+Diamonds collected: 7
+Duration: 281 frames, 28.1 seconds
+Cave: seed 80376
+----
+Game ended by the player
+Score: 271
+Diamonds collected: 68
+Butterflies killed: 3
+Hot streaks: 5
+Longest streak: 27
+Duration: 1034 frames, 103.4 seconds
+Cave: seed 80386
+----
+Game ended by the player
+Score: 410
+Diamonds collected: 62
+Butterflies killed: 3
+Hot streaks: 2
+Longest streak: 43
+Duration: 665 frames, 66.5 seconds
+Cave: seed 80486
+----
+Game over
+Score: 2
+Diamonds collected: 2
+Duration: 32 frames, 3.2 seconds
+Cave: seed 8080
+----
+Game ended by the player
+Score: 205
+Diamonds collected: 52
+Butterflies killed: 3
+Hot streaks: 5
+Longest streak: 20
+Duration: 849 frames, 84.9 seconds
+Cave: seed 8085
+----
+Game over
+Score: 2
+Diamonds collected: 2
+Duration: 98 frames, 9.8 seconds
+Cave: seed 8086
+----
+Game over
+Score: 1
+Diamonds collected: 1
+Duration: 86 frames, 8.6 seconds
+Cave: seed 8088
+----

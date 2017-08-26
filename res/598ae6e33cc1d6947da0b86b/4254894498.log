@@ -1,0 +1,63 @@
+{
+    "cave_source": "generated",
+    "seed": 4254894498,
+    "geometry": {
+        "w": 40,
+        "h": 22
+    },
+    "butterflies": 3,
+    "ingredients": {
+        " ": 25,
+        ":": 50,
+        "+": 10,
+        "O": 10,
+        "*": 5
+    },
+    "cave": [
+        "########################################",
+        "#:*: :: +:OOO :   : ::  + *OO:O :  :: :#",
+        "#::::O::    : : : :: :: : :*::*O::O*:  #",
+        "#:: :::::O  :: O+:::: :+::::::+ :::::  #",
+        "#: O::::::O *:*O:O   +: :::::::+:::: O:#",
+        "# : :+:: :O   :: :::: * O ::::+:O O:O:+#",
+        "#*+ :* O:::::O++ O:O  +::: O+:O::+ :AO:#",
+        "#O*:: O:OO: ::O:   O:*:::: ::::*  :: +:#",
+        "# OO O::  *::/  O:::O:*  :: +: O:+::  +#",
+        "# :  ::  O:+:  +:O  *O  : :*:  :::::O+ #",
+        "#: +::::::::::O:: +:++ O::O:  + :+:::::#",
+        "#:+::**:+:::::+::+ ::  :::::::O :+:: ::#",
+        "#+:+ ::++:+O+:   ::O::+O+ *  :  : :   :#",
+        "#:+  ::::: :O:::: +  :::::::O: :: +:::O#",
+        "#: +O:+ ++:/ :+O:: *:::: O: ::: :: :: :#",
+        "#*:: +  :::  O++::O : : :+:: O:::+ O: O#",
+        "# ::+: ::: ::: :: :++:  :+  O+::  : +::#",
+        "#::: : ::::   ::O:    :: :::O::::: + * #",
+        "#   ::: :::O::: * ::::::+/ :+ :: : ::O #",
+        "#::: O:: :O::: :: ::O O:   ::OO:++::  :#",
+        "#:: O:: O:*::::+:*::::: :*+:O*  : : :+:#",
+        "########################################"
+    ],
+    "controller": "script",
+    "script": "598ae6e33cc1d6947da0b86b/solution.js",
+    "limit_frames": 1200,
+    "limit_time": 120,
+    "interval": 100,
+    "fps": 10,
+    "commands": "ddlddddddllllllldlddluduruululllldddldlllulllllldluduudduuuurruuudluuulluurruurrdrrrrrrrddddllddrrrrrruurruurrrrrullluuuurllllurrrrrrrrrlrdddddddduddrrddddddrddllllllluuuuulldldldldddlduuuluuudlllllulllddrdd",
+    "outcome": "game-over",
+    "score": 110,
+    "diamonds_collected": 25,
+    "butterflies_killed": 2,
+    "streaks": 2,
+    "longest_streak": 13,
+    "duration_frames": 207,
+    "duration_time": 20.7,
+    "ai_perf": {
+        "processed": 207,
+        "init_ms": 11,
+        "total_ms": 238,
+        "max_ms": 20,
+        "dropped": 0,
+        "avg_ms": 1
+    }
+}

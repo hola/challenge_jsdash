@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "random-js": "1.0.8",
+        "node-getopt": "0.2.3"
+    }
+}

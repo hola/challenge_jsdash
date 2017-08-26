@@ -1,0 +1,16 @@
+In short: (1) kill as many butterflies as possible in 600 seconds; then (2)
+collect the diamonds.
+
+1. The player approaches one of the butterflies and hovers above it, constantly
+   laying virtual paths into the future and looking for opportunities. If such
+   an opportunity presents itself, he drops a loose object on the poor thing
+   and goes to the next victim.
+
+2. Once all the butterflies are killed (or the first 600 seconds did run out),
+   the player tries to find the longest path which would allow him to score the
+   largest streak, and follows the path, collecting the diamonds. The exact
+   routes between the pairs of diamonds are selected using the A* pathfinding
+   algorithm.
+
+All of this works on top of the bog-standard simulation-inside-simulation.
+
