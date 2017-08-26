@@ -52,6 +52,8 @@ We took the seeds that it produced and gave them numbers, because the long seeds
 
 For every solution, we are publishing the replay logs of 20 runs, one with each of the seeds above, in the [res](../res) directory. If you feel like analyzing that raw data and producing some interesting stats that we didn't think of, please email us at challengejs@hola.org!
 
+Although from the preliminary results it seemed like we had a clear winner, the situation has changed! Now we have two contenders running neck-to-neck, one of the being better in some caves and one winning in the others. For this reason, we are now running the top 5 solutions on an extended set of levels (to generate that, replace 20 with 50 in the above script). We'll post an update soon and see if the separation between the leaders becomes more pronounced; right now, the difference between their total scores is only 0.34%. 
+
 ## Final standings
 
 ### Score
