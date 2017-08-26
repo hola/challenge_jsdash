@@ -1,5 +1,9 @@
 *[Previous post](04-preliminary-standings-2017-08-10.md)*
 
+# Final Standings
+
+*See also the [Russian version](https://habrahabr.ru/company/hola/blog/336448/) of this page.*
+
 Thanks to all the participants! We have received 132 submissions from 67 unique participants before the contest was closed on August 17.
 
 All the participating solutions are now published in the [submissions](../submissions) directory. There, solution.js is the script we tested, and in the src directory are the contents of the sources archive attached by the participant. Only the last solution from each participant is published and tested.

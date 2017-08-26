@@ -22,7 +22,7 @@ Contact us: challengejs@hola.org.
 
 All solutions are now published and tested. Participants will be disclosed, and winners awarded, on August 31.
 
-*Published on August 26, 2017*
+*Published on August 26, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/336448/))*
 
 ## [Preliminary standings III](blog/04-preliminary-standings-2017-08-10.md)
 
