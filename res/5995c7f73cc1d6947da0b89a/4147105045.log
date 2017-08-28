@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "ddllllrrrdddrddrrrddddrrddruuldluuuuuuuluuluuuruuldulullllulllululldddrrrdululllllllluuldlllllldrlrddddddllludurrrdrdddrlllllldullllldddlddrrrrdrrrruldrruuulurrrrrrurrrrluuduuudrrdddrrdudrrddlduddrruurldllullllllllllllluluuulrllllllrluuuuuurduuuldddddddrrrlluuuuluuurururullrrrrrdlrruddldurrdllulurrrdrllrrrrrlllllrrlrlllrrrrrlllrrrrullllrrlrllrlrrrlllllrrlllduurrrrllllrrrrlllrrrrlllllrrrrlrllrrrrllllrrrrllrlrrdrlllrrrrllrllrrrlllllrrlrllllrrllldlrrrrrllrlrrrrlrlrrurrrrrrrrrrrdrrrrrddddlddrrrrrrudrluulllrrrddrrddlddddldddrrdduulldulrulllllrulrrudllrlrluluuulrrrlllllrrrrllllrrrrlllrrrdrllulrrrullrrrlddllurrurulllrrdddllulrrrdrlllrrrrllllrrrrllllrrrrlrrlurllllllrrrrllrrrllulllrrrrullllrurrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrllrlrrrulullrrrrlllurrrrllllruurllulrruullllrrrrrlllrrrdllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrllrlrrdrllrlrrdrllllrrrrllllrrrrllllrrrrlllrrrrrllrlrruldllllrlrllllurrrllllrrrrllllrrrrllllrlrrlrllrrrrllrldrrrllrlrrrrllllrrlrllllrrrrllllrrrrllllurrrllllrlrrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrlllrrrrrllllrlrrllllrrrrllllrrrrllllrrrlllllrrrrllrlrrrrlllrrlrrllllrrlrllllrrrrllllrlrrllllrrrrllllrrrrllllrrrrllllrrrrllllrrrrlllllrrrlr",
+    "commands": "ddlllrrdddrddrrrddrldllllullllllldduuuulllullluuuuldllllllullluurrurllruruuulllullllldddrl rdrrrrrruurrrrrurrurrdrrrrddrrrdruurrdrrrrrrdlddllulurrlllddddddddduullllllldllllllllllulllldduulldullllldddlddrrrrdrrrurdlllllluuuuuuuuuuuururrruurrrrdddddrrdrrrrrdrrurrrrlrdrrrrrrdddrlduduurrllddlllrrrdrdrrllrrlrlruulullulllllllullluuuluuduuududullurulludllllllrrdddrrddlldlddddulrddrrlllrdddrllluulllllddulurruluulrruullrlllu   ",
     "outcome": "game-over",
     "score": 165,
     "diamonds_collected": 39,
     "butterflies_killed": 1,
     "streaks": 3,
-    "longest_streak": 26,
-    "duration_frames": 1200,
-    "duration_time": 120,
+    "longest_streak": 19,
+    "duration_frames": 422,
+    "duration_time": 42.2,
     "ai_perf": {
-        "processed": 1200,
+        "processed": 422,
         "init_ms": 6,
-        "total_ms": 11919,
-        "max_ms": 61,
+        "total_ms": 3385,
+        "max_ms": 57,
         "dropped": 0,
-        "avg_ms": 10
+        "avg_ms": 8
     }
 }

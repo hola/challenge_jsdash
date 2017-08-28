@@ -43,7 +43,7 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "uullullluuuuuuuddddllllrrruudddrddrrrllllduuurrrrruuuuurrrruullllurrrrrdddlddldddllllddrrrurrulllurrullluuuuuuuuuuullllllldllldddlllllllllddddddrdrrdddllddduuuuullllluuuuuuuludllllldruuuuurrruu r r r r r r r r dddddddllllllllllddullldddrrdllddddlddluuuuruuluurrrdrrrrrrruuurrddddrrrrrrrrrrrrddlddlllldddurrulllldululuulllddlddldrrlllluuuruuldddlluurdurrrddruuudrrruruuuulururlurrurdrdrddldddrdrduuuurrurruuuurrrdrrruu uurrrdld rruuurddrdddddddddddddudududududududududududlrududdlrudd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ",
+    "commands": "uullullluuuuuuuddddllllrrruudddrddrrrllllduuurrrrruuuuurrrruullllurrrrrdddlddldddllllddrrrurrulllurrullluuuuuuuuuuullllllldllldddlllllllllddddddrdrrdddllddduuuuullllluuuuuuuludllllldruuuuurrruu rrr r r r r r dddddddllllllllllddullldddrrdlldluddlddrddrllruluurrduuuuurudrrrrrrruuurrddddrrrrrrrrrrrrddlddlllldddurrulllldululuulllddlddldrrlllluuuruuldddlluurdurrrddruuudrrruruuuulururlurrurdrdrddldddrdrduuuurrurruuuurrrdrrruu uurrrdld rruuurddrdddddddddddddudududududududududududlrududdlrudd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ",
     "outcome": "game-over",
     "score": 352,
     "diamonds_collected": 50,
@@ -53,11 +53,11 @@
     "duration_frames": 1200,
     "duration_time": 120,
     "ai_perf": {
-        "processed": 1189,
+        "processed": 1191,
         "init_ms": 6,
-        "total_ms": 14214,
-        "max_ms": 122,
-        "dropped": 11,
-        "avg_ms": 12
+        "total_ms": 13272,
+        "max_ms": 113,
+        "dropped": 9,
+        "avg_ms": 11
     }
 }

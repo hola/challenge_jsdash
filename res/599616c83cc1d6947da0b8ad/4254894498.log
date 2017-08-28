@@ -43,7 +43,7 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " dlddlllddddddlllulldddllluudluurrru lllllullllllllullrrdduuu  uluur     l",
+    "commands": "dlddlllddddddlllullddd llluudluurrru lllllullllllllullrrdduuu  uluur      l",
     "outcome": "error",
     "error": [
         "599616c83cc1d6947da0b8ad/solution.js:1818",

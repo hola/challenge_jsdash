@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "rlddllrrrludrullurddrrurrdurruruulllrl uuu lulluuuuruuululldlulllulllululldlldllldlddldllddrrrrrddrrlrlrrurrrlddlddddllddddllrrrurrrdrrururuuuuurruuuurrrrrrrruuuuluurrrurrdddddrddddllduururuulldllllllllllllllllllulllullllllullllllllr ddrrrrrrdddldddllr l",
+    "commands": "rlddllrrrludruluuuuuuruuuruuululldlulllulllululldlldllldlddldllddrrrrrddrrrdrruurrrdrddrrrddrrddurrrrddurruruulllluururrruulddlldllllllldrddrrddrrlldldlldllluluulllullddddlluuuuulllullllullulluuuuuuulr u                              uuu   ruurrrrrrlddddlllldddlluuddrrdrrrddllu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ",
     "outcome": "game-over",
-    "score": 125,
-    "diamonds_collected": 27,
-    "butterflies_killed": 0,
-    "streaks": 1,
-    "longest_streak": 25,
-    "duration_frames": 254,
-    "duration_time": 25.4,
+    "score": 287,
+    "diamonds_collected": 47,
+    "butterflies_killed": 3,
+    "streaks": 2,
+    "longest_streak": 38,
+    "duration_frames": 1200,
+    "duration_time": 120,
     "ai_perf": {
-        "processed": 254,
+        "processed": 1200,
         "init_ms": 6,
-        "total_ms": 259,
-        "max_ms": 16,
+        "total_ms": 481,
+        "max_ms": 14,
         "dropped": 0,
-        "avg_ms": 1
+        "avg_ms": 0
     }
 }

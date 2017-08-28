@@ -43,21 +43,23 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " drdrllllldurddlldl uluur d",
-    "outcome": "game-over",
-    "score": 10,
-    "diamonds_collected": 0,
-    "butterflies_killed": 1,
-    "streaks": 0,
-    "longest_streak": 0,
-    "duration_frames": 27,
-    "duration_time": 2.7,
-    "ai_perf": {
-        "processed": 26,
-        "init_ms": 11,
-        "total_ms": 624,
-        "max_ms": 81,
-        "dropped": 1,
-        "avg_ms": 24
-    }
+    "commands": "drdrruuruu            u",
+    "outcome": "error",
+    "error": [
+        "599616c83cc1d6947da0b8ad/solution.js:1818",
+        "      get_butt_path({x: butt.x, y: butt.y, dir: bd.dir}, screen, b_path, falling_stones);     ",
+        "                                                  ^",
+        "",
+        "TypeError: Cannot read property 'dir' of undefined",
+        "    at Object.exports.play (599616c83cc1d6947da0b8ad/solution.js:1818:51)",
+        "    at exports.play.next (<anonymous>)",
+        "    at screen (599616c83cc1d6947da0b8ad/solution.js:3126:20)",
+        "    at evalmachine.<anonymous>:1:16",
+        "    at ContextifyScript.Script.runInContext (vm.js:53:29)",
+        "    at Object.runInContext (vm.js:108:6)",
+        "    at screen (/root/challenge_jsdash/game/loader.js:37:34)",
+        "    at process.on.screen (/root/challenge_jsdash/game/controller.js:123:25)",
+        "    at emitTwo (events.js:130:20)",
+        "    at process.emit (events.js:213:7)"
+    ]
 }

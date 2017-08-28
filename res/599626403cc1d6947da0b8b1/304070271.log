@@ -43,7 +43,7 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " udrr",
+    "commands": "uudrr",
     "outcome": "game-over",
     "score": 0,
     "diamonds_collected": 0,
@@ -53,11 +53,11 @@
     "duration_frames": 5,
     "duration_time": 0.5,
     "ai_perf": {
-        "processed": 4,
-        "init_ms": 30,
-        "total_ms": 102,
-        "max_ms": 54,
-        "dropped": 1,
-        "avg_ms": 26
+        "processed": 5,
+        "init_ms": 28,
+        "total_ms": 110,
+        "max_ms": 49,
+        "dropped": 0,
+        "avg_ms": 22
     }
 }

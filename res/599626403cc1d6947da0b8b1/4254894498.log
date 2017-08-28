@@ -43,7 +43,7 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " dur",
+    "commands": "dduu",
     "outcome": "game-over",
     "score": 0,
     "diamonds_collected": 0,
@@ -53,11 +53,11 @@
     "duration_frames": 4,
     "duration_time": 0.4,
     "ai_perf": {
-        "processed": 3,
-        "init_ms": 30,
-        "total_ms": 93,
-        "max_ms": 55,
-        "dropped": 1,
-        "avg_ms": 31
+        "processed": 4,
+        "init_ms": 27,
+        "total_ms": 99,
+        "max_ms": 49,
+        "dropped": 0,
+        "avg_ms": 25
     }
 }

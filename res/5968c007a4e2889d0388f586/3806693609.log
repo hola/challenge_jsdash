@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "  r u l llddldddlll d l r d",
+    "commands": "  r u l llddldddll l d l r",
     "outcome": "game-over",
     "score": 13,
     "diamonds_collected": 5,
     "butterflies_killed": 0,
     "streaks": 1,
     "longest_streak": 5,
-    "duration_frames": 27,
-    "duration_time": 2.7,
+    "duration_frames": 26,
+    "duration_time": 2.6,
     "ai_perf": {
-        "processed": 18,
-        "init_ms": 7,
-        "total_ms": 1923,
-        "max_ms": 223,
+        "processed": 17,
+        "init_ms": 6,
+        "total_ms": 1740,
+        "max_ms": 198,
         "dropped": 9,
-        "avg_ms": 107
+        "avg_ms": 102
     }
 }

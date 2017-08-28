@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "dlllllllllddddddddddddlldullrrruur rddllldllllllllluulllrrru  uuuulllllrrrrllldruuuuuuuluurruldddddlddlddddldurrdrrrrdddrluuuuuuuuuurrrrruuuluuuurrrrrrrlldrrrurrurrrrrddddddddldddllllllllullllldddllduuuuuuulllllllllddllldlluurulu l l ll du uuuuuurdrrdrrrdlllddrrurrdruuluullullldrrrrrrudrrrdrururrdrrdddddrrluuuuuulrrdrrddrrrrrddd r",
+    "commands": "dlllllllllddddddddddddlldullrrruurrddllldllllllllluullldrrruu  uuuulllllrrrrllduuuuuuuluurruldddddlddlddddldurrdrrrrddldldllllluuu lluuuuluuluurulullllduuuuuuurrrrrdrrrrrrrrrrrrdddrrrddddllddrrrrrrdrruuuuuuuuuuludrrrrurrrrrddddddlllddddddddddrdrrrrrlllllllllllldlllllllllrrrruuuullrurullullluulllllluuuuluulllllurrrrdddlddududuuuldlluuuulrrldllurrrrrrrurrrrrddllddrrrrrrdddrrdruurrurdddruuuuulurrddrrruuldrrlddrrururulu r drdrdddddlddrurrdddlldlllldddluuuluuulllddllldldddrdldllulluuddlullllulldllllllllulldrdddlurrrurrddlruruurud druuldrrddluuldrurulllllrdllluululdrrruruurdrrruurlddudllluuurrldllldruurlrludududuulluuulurrrrrrrdr rdddlddlruulrurrdurrrldurrrdldruuuuuurru r r r ddullrlrlrrdrruu r ddrddd ddrrrudrrrrrurddrrrdulddrllllldllddddrurrdlllrlrlrludrludrlrlrlrludllluuudddlllrudllrllrrlrrlrlrrllrlrlrlluuuurdrdruuulluuldlddldllrlllldrulluululurluurru uuuldrdd r r r r r r ddllluu l r ud l l l dlrrru uuuuuudrrurdrrrrurrrrldududullld ud l r ddddudld l l l r r r r r r rr uuluuudul l l r r ud drldduldldd ll lr r r r r rl du dlu uuuluru du r l l l r ud ud dddllrlrdrlld rr du lr dludlu lldlrlrrudddurrllrrruu ud r r l l ddudu dulllru llrdddrdrllldllluruurrlrrrudruuudururlduuddlrrd l l l lr r ",
     "outcome": "game-over",
-    "score": 315,
-    "diamonds_collected": 51,
+    "score": 236,
+    "diamonds_collected": 54,
     "butterflies_killed": 3,
-    "streaks": 2,
-    "longest_streak": 37,
-    "duration_frames": 332,
-    "duration_time": 33.2,
+    "streaks": 3,
+    "longest_streak": 26,
+    "duration_frames": 1200,
+    "duration_time": 120,
     "ai_perf": {
-        "processed": 323,
+        "processed": 1111,
         "init_ms": 6,
-        "total_ms": 9075,
-        "max_ms": 258,
-        "dropped": 9,
-        "avg_ms": 28
+        "total_ms": 41324,
+        "max_ms": 272,
+        "dropped": 88,
+        "avg_ms": 37
     }
 }

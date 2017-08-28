@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "     dlddddrddrrrldrurlrrlrlrrrddlllldlddrdrrudrrddrru                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         llullllullulullulllduuruuuruldlllulurrrrurrrurrrdrurudrdddddurrdddrddluurrrruuuuuuurrurrrdrdrulllddrddldddlldddurrrrruurrrluuurrruddruuruurrrrddldddddldlllludlddddldllluludrdrrrddlldllullllllllllllllllulllululrdrdrdrrrrrrrrrrrrrrrurrrrrdrrruurrurrlurrrluu d ldlruuududdurlrurdllddudldlrrulluldlduurrllrrlruuddlldrlrdddludlrdrldluudrrluruddrrdrludurdllrululrduluurdrluuudrdrdrdddrulrulllrllrrdlrludurudurdulrlrrdrduudlurllddllrrrrulduurulruduludllrudrrldrdulurlrdululrldududluudurdudrruuuulurdduuuulruuulrddluurddddddluldddddruddlldlrddllllldllullllrrrlllluudddl",
+    "commands": "     dldddlullddllldddduuurrruudlrududdlddllrlrlddrdrr luurduuddluuuuululldddd r",
     "outcome": "game-over",
-    "score": 375,
-    "diamonds_collected": 49,
+    "score": 1,
+    "diamonds_collected": 1,
     "butterflies_killed": 0,
-    "streaks": 1,
-    "longest_streak": 47,
-    "duration_frames": 1200,
-    "duration_time": 120,
+    "streaks": 0,
+    "longest_streak": 0,
+    "duration_frames": 80,
+    "duration_time": 8,
     "ai_perf": {
-        "processed": 1198,
+        "processed": 80,
         "init_ms": 6,
-        "total_ms": 3993,
-        "max_ms": 171,
-        "dropped": 2,
-        "avg_ms": 3
+        "total_ms": 713,
+        "max_ms": 64,
+        "dropped": 0,
+        "avg_ms": 9
     }
 }

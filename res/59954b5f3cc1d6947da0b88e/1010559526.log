@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "     ldrrurrdrru                                         rruduuldrluldrrdrduludrlullrrdrduludrlulrddrddduurdddulrdrrrdllrrruldrdrrrrdllurrlurdrrrruuuu                                                                                                                                                                               rululrrlllrllrrudllullllludlullldudlllllululdllldllurldurlllllldrrurrrdddrdddddlluuuddddludlddddrrrruuluulurrrrrrururrddrruurrrrrdrrrruru       luulluuluuullllllullldlddlllllllluullllllulddlrdrrdrrddllllddrdrdrrulrllddrdrrudrddrrdrrddrurulruulrddurrdrruruurruuluuuuulrrrrdlddrddlddrrrrrddrdlruuuurrudrruruuuuuuuuulrrrduruuddddddddddrruudddlldrulllddlrullldlllddddddllurrrrrluurrdrrurrrdrdr r u dlldrurduuddullrrdludrududlrlurduudlludulududuldlururuuldldrlrdlrrulrddududluldudrulrrrlulurdululdluuuddluulullurlurruuurulddullrrdddudddlruuuulrllrrludllurlruudddlrrudrrlrdulrrlrluuldrudllldlrurdlldrurdduurrrldurlullruurlurdrrrruddlllurldulurddrudrduululurudrrdlrrurulllrdrurdduudduudullldrldlurudlldllluulduddduurrldldlurdllrrddlrrrudduurululrlrrldrrrlluludrrlrdludrlldrlrulrrldlrdulrldurudrlldldlrdddrurdrrrrrdllduuuuldrldlrulrdduuurulddlrrrldlldrudrudldddrddduuuulllurldlluduul",
+    "commands": "     ldrrurrdrru                                         rrudululrlldlrrrrdullurllllddldduludullulrrrrrlllrrlllrrrrrrlllrrllldrrrrullldrlllrrrurrlllrrllllrrrrrlllrrlllrrrrrrllldrlllurrrrrllldullllrrrrrllldrlludrrrurlllrrllldrrrrulllrrlllrrrrrrllllrlllrrrrrrlllurldlrrrrrdulllrlllrrrrrdullrrllldurrrdullrullldrrrrdullurllllrrrrdlllrrlllurrrrrlllurdulurrdrrlllurlddrrrrdrrllrrrdludrrrddlluddrllrrrdrrlulrdrudrrrrdduuurdrulldddrdlururuuuu    luululullllllllldllldldddlluudlllullllulluulllllluldldrdrrdrrrrurrlldddldrdlldldlulldrrdrrudlddrrudrruruurrrrddddllddddrruulrulrruuurruurrruudrrdll",
     "outcome": "game-over",
-    "score": 592,
-    "diamonds_collected": 63,
+    "score": 262,
+    "diamonds_collected": 37,
     "butterflies_killed": 3,
     "streaks": 1,
-    "longest_streak": 63,
-    "duration_frames": 1200,
-    "duration_time": 120,
+    "longest_streak": 37,
+    "duration_frames": 586,
+    "duration_time": 58.6,
     "ai_perf": {
-        "processed": 1197,
-        "init_ms": 7,
-        "total_ms": 5973,
-        "max_ms": 134,
-        "dropped": 3,
-        "avg_ms": 5
+        "processed": 586,
+        "init_ms": 6,
+        "total_ms": 1143,
+        "max_ms": 56,
+        "dropped": 0,
+        "avg_ms": 2
     }
 }

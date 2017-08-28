@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "lddlrrrdrrrururudddllluuuuuluuluuruuuuululldlullluldlllullulldllldlddldllddrrrr   rddrrrurr ddlddddllddddllrrruuuuruurruddlldlddddurrrdrrrrruuuuuruurur urrururrruuuuluurrrurrdddddrddddlldurruuuulldllllllllllllllllllulllullllllullllllll rrr rdddddddllduuuuurrrruurdluuuullulllrrdr lrrrdrrruurrl urrdlllrrdllrruurrrrrrrrddrrrrrrrrrrdrrrurrrurrdrlulldllldllulllllllllll  drrrrrldrulllllll  l rrrrrrrrrrrrrrrrrurrrurrddrldddldrlllllllllllllllldlllllllllllullululllllrrdrrrrrrrrurrrurrdrrrdrrrurr ludddlllrr rrruuldd rrr",
+    "commands": "lddlrrrdrrrururudddllluuuuuluuluuruuuuululldlullluldlllullulldllldlddldllddrrrr   rddrrrurr ddlddddllddddllrrruuuuruurruddlldlddddurrrdrrrrruuuuuruurur urrururrruuuuluurrrurrdddddrddddlldurruuuulldllllllllllllllllllulllullllllullllllll rrr rdddddddllduuuuurrrruurdluuuullulllrrdrlrrrdrr ruurrl urrdlllrrdllrruurrrrrrrrddrrrrrrrrrrdrrrurrrurrdrl ulldllldllullllllllll  ldrrrrrdullllllll rrrrrrrrrrrrrrrrrurrrurrddrldddldrlllllllllllllllldlllllllllllullululllllrrdrrrrrrrrurrrurrdrrrdrrrrurrld dllllrrrrr rruurrrurrlldldddlllululdddrrrr l r rlrurlrrrlrrrldduu  rurrrllrrllldllrrurrruulddlldllllldllldrduullllldddllrldr urr llr uuullr rdllrulullllllulullllllllrrrrrrrlllrrrdddddrrrr drr uld uuuuurlullllllllllllldrrllllluld r",
     "outcome": "game-over",
     "score": 204,
     "diamonds_collected": 36,
     "butterflies_killed": 1,
     "streaks": 1,
     "longest_streak": 34,
-    "duration_frames": 515,
-    "duration_time": 51.5,
+    "duration_frames": 722,
+    "duration_time": 72.2,
     "ai_perf": {
-        "processed": 514,
+        "processed": 721,
         "init_ms": 6,
-        "total_ms": 18811,
-        "max_ms": 110,
+        "total_ms": 28578,
+        "max_ms": 99,
         "dropped": 1,
-        "avg_ms": 37
+        "avg_ms": 40
     }
 }

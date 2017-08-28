@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " l u l u u l u u u r u r r r d d l u u u u u r r u r r r r r u r u u u u r r r u r u r r r r u u r u r r u r r u r r r r r u r r r u r r r u u r r r u r u u r u r r r r r r r r u r u r u u u r r u r r u r r r r r u u r r r u r u r r u r r u r r u r u u r r u u u r r u u r u r r u r u u u r r r r u r u r r r u r r r r r r r u r r r r r r u r r u r r r r r r u r u r r u r r r r u u u r r u r r r r r r r r r r r r r r r r r u r r r r u r r r r r u r r r r r r u r u r r r u u r r u r r u u u u r r u r u r r r r r r r u r u u r u r r u r u u r r u r r u u r u r u r u u r r r r r r u u u r u u r r u r u r r r r u u r u r r u r r r u r r r r r r r r r u u u u r r r u r u u u u r r u u r u r u r r u u r r r u r r u u r u r u r r u r u r r u u r r r r r u r r r u r u u u r u r r u r r r u r u u r r u r r r u u u r u r r u u r r u r r r r r r r r r u r r r r r r r r r r u r r r r r u r u r r r u r u r u r r r r u u u u r r r r r r r u r u r u r r r r u u r u u u r r u r r r r u r r r r r r u u r r r u u r r u u u r r r r r r u r r u r u r r u u r u r u r r u r u u r r u r r r r r r u r u u u r u r r r u u r u r u r r r r r r u r r r r r r u r u u u u r r u r u r u r u r r u r r r u r u r u r",
+    "commands": " l d l d l u r d r u l l l d d r r u u l d d l u u u u u u r u u r r r r u u u r u u u l d l d d",
     "outcome": "game-over",
-    "score": 2,
-    "diamonds_collected": 2,
+    "score": 14,
+    "diamonds_collected": 6,
     "butterflies_killed": 0,
-    "streaks": 0,
-    "longest_streak": 0,
-    "duration_frames": 1200,
-    "duration_time": 120,
+    "streaks": 1,
+    "longest_streak": 5,
+    "duration_frames": 96,
+    "duration_time": 9.6,
     "ai_perf": {
-        "processed": 600,
+        "processed": 48,
         "init_ms": 5,
-        "total_ms": 84783,
-        "max_ms": 167,
-        "dropped": 600,
-        "avg_ms": 141
+        "total_ms": 6452,
+        "max_ms": 153,
+        "dropped": 48,
+        "avg_ms": 134
     }
 }

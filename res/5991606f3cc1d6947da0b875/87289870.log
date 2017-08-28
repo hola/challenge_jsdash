@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            dldddddddlddrdddddllllrrrddrrrrruuuuurddldddr drluruuruullluuudddrrrrrrrrrrrrrrrrdururlu ddddllluuuuudddllllllldllllulllluuuudldr dl lluurldldr   rrllllldrrurrdrddddruuurudrlddddrduulullllulldldddullrruruurrdrlllllluruuluuuuluuulllluurrrdrdrrurrrururrrrrrddlldddrrdlddddrrdrrrrddddrrrrrrurllluuuurrrrrddddrrrdlluuruuuuuuuuruuluulllullludddddrddddddddddrrrrrdullllllldlllullllllllulllllullldlllulllllldq",
+    "commands": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            drrddddrddldddddddrdddrrd uuurrluulllllllddlluuurruudddluururr rrdddrrrrrrrrrrrrddrrrrruuudr  uluullllldllllldllllllldllllddrrurllldlldllddlurdrdurullluuruuluuuuluuullllrururdrdrrrrruurrrrrrrulldddddrrlddddddurrrrrdrddddrrrrrrurllluuululddlrddlldldlllllruuldrrrurrrrrurrrrurrrrurrdllddrrdlluruuuuuuuuuruuluulllulllullllllllllllldllldllddddddddlldddddduulllulllllldq",
     "outcome": "quit",
-    "score": 470,
-    "diamonds_collected": 58,
+    "score": 469,
+    "diamonds_collected": 57,
     "butterflies_killed": 3,
     "streaks": 2,
-    "longest_streak": 53,
-    "duration_frames": 1102,
-    "duration_time": 110.2,
+    "longest_streak": 54,
+    "duration_frames": 1065,
+    "duration_time": 106.5,
     "ai_perf": {
-        "processed": 454,
+        "processed": 416,
         "init_ms": 6,
-        "total_ms": 65129,
-        "max_ms": 65020,
-        "dropped": 648,
-        "avg_ms": 143
+        "total_ms": 65149,
+        "max_ms": 65056,
+        "dropped": 649,
+        "avg_ms": 157
     }
 }

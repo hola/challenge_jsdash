@@ -43,7 +43,7 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "dddurrddddldlulullddrdrdrddrrrruurdddrddulrrdrdrruurrrrruuldlddldllulllllldlllddrrddlluluuullldduuruuur    lllllllllulurrrrrrr llu",
+    "commands": "dddurrddddldlulullddrdrdrddrrrruurdddrdlrlrrdrdrruurrrrruuldlddldllulllllldlllddrrddlluluuullldduuruuur    lllllllllulurrrrrrr llu",
     "outcome": "game-over",
     "score": 94,
     "diamonds_collected": 19,
@@ -54,9 +54,9 @@
     "duration_time": 13,
     "ai_perf": {
         "processed": 130,
-        "init_ms": 7,
-        "total_ms": 452,
-        "max_ms": 11,
+        "init_ms": 6,
+        "total_ms": 429,
+        "max_ms": 10,
         "dropped": 0,
         "avg_ms": 3
     }

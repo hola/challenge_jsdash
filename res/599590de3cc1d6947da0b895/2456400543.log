@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " luululuuuuulluuuulurrrrulrrddrlldrlddddddruurrurrdrulluuulldddlrllllulllldlluuldlldldldrrulrlllllllrluuldllluulldlrulrrurrrrd ldluururururrrrrdldlddrrrr lddlrddddllurrrrdrrrllruruurrddrrdrddrdrlldddludlddlllullllllduuulrlrurrruurrrrrrrdduuurrrurrdrluruurururudurlrddrdd   ldlddrdrrldldddlluulllddulldulurrlruurullllulluuu rrrrrrdruuluuurluuurrdrruurdrrurrdddddudrddddllduurulllururdrlllruullululllludllllllllllllluurrurrrrddurrlulllddr uluddlddrdrlllddrrlrrrr uurrrduluullludldlullllldrrruuuuldullddlluddll rudddrdurrlduurrrlluuululrlllllrldldlllldlduuudurruddllldurruurrrdduudulldlddululruldurddddrrddrrdddlllldddrrrrurrdrrddrrrrrlululdluuruuldldluurllrruulurrlulrdlu udrduluurulllddrlllrurrdlldlrldddudldlddluuuurdururrrrlddurrrlllldllluluuluuuddruuluurrllddddd uruuuurlrlrdddddulururrllrlrrrlrdrrrurruulldrullrdlldrrrruulrrrrrdddrdrruulrrddrrlddrdlllldldrrlllurrrrrdrdrruldddlluddddrdruldlddrllululuudlldrdrllulullruuruurldlulllllluldddrddrrudllurllldr  ",
+    "commands": " lddlllllruuuuuuullulllduludldllulullluulllullllldlrdlruddd rurrrrruururrrrruurrrrluuurrrlrrrddrdrrrrrllddddrrrrlrrluuulduurrrdrllruurrrurulllllllrdurrdrdldlddululullurrudldlllldddddrdrrdllrldddruurlrrrdrddrddr ruddrlrllllrdllddrrlllrrrruluuuuuuuurrdlurru uurddrrdrlulllluuu dldldlulluuu    ddddddlllldllllldllldldddllddrrrurrrrudllrdrru l      ",
     "outcome": "game-over",
-    "score": 66,
-    "diamonds_collected": 28,
+    "score": 115,
+    "diamonds_collected": 33,
     "butterflies_killed": 1,
-    "streaks": 6,
-    "longest_streak": 6,
-    "duration_frames": 958,
-    "duration_time": 95.8,
+    "streaks": 4,
+    "longest_streak": 14,
+    "duration_frames": 345,
+    "duration_time": 34.5,
     "ai_perf": {
-        "processed": 957,
+        "processed": 337,
         "init_ms": 10,
-        "total_ms": 25757,
-        "max_ms": 120,
-        "dropped": 1,
-        "avg_ms": 27
+        "total_ms": 8640,
+        "max_ms": 118,
+        "dropped": 2,
+        "avg_ms": 26
     }
 }

@@ -54,10 +54,10 @@
     "duration_time": 1,
     "ai_perf": {
         "processed": 5,
-        "init_ms": 6,
-        "total_ms": 790,
-        "max_ms": 169,
+        "init_ms": 5,
+        "total_ms": 750,
+        "max_ms": 163,
         "dropped": 5,
-        "avg_ms": 158
+        "avg_ms": 150
     }
 }

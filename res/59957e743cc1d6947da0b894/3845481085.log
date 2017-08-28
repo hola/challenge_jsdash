@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " ddllululldllulllllludulrdud rrrullluldrululudlrldluulruuluuudrrdddrdurrruurrruuuruuurrddrrurdddrrrrrruururdlrdrdrdrrruullruddddddldllddrdddrddrdullrudddulullllllllllllllllllllllluddrurllullllulldldddrrruuurrruulullluulluurrrrruuuulllluuudddrrrrddrrrrrrurrdrddddddrldldddrdddrurrrddrrrrr rlluuruuruuuuuuuuluuudrrrrrrdrdrrurrrllldldrrrrdullllddddddddddrrdllurrrrlllluuuuuuuuurrluuuuuul            llllllddlddddddddddllllllllllddldlluddl  llruldlu  r ulrull llludl   rurrduurlruldldl ruull lrlrrlurl rl  uulu rdrr   dlldu udul  l r ur rulrludr lrurd  rulrldrurl  lu ududdduur rrrulrrll udud l lrrd rd dlrud drl ldu    lruud rdlll drl rur ddllu lrdudlu  dll   du duuuddudrldulrdu  dd ru ddld   rrru dr  rldrlduuddu d  rl rrrllu lldlr  ulr l  ulrrl ururr u   d ruduu  d  rdr ddlrrddlruuduu r durdu    ld l ld urr lld urul  lldu llddull  ulud ludlu  lu l d rd ul rrrrlrul drudddrlu dr rl  rrl lrlllu drlu lrll rur llu uudrl ldduluu  rrud drlr ulddlu drud  uulrldrldr dlrlruuuldurll rudlrl rud lur ldurdlruuulu uuudduu ud  r lu  d uddd r luuuddrdddddrdru  drlll ur   ud llu rulr du rrrr r rrr u  drldddlrllddd rllldllrlr  rlr llr uud rr udrdur  ruldlrdruuluu  ludldruruldd llu r ld  rrulrdrrrludlr l urrr r",
+    "commands": " ddllululldllulllllludulrdrl rrrulllul ulldluulrllllluuruddrrdrrurrrrruurrruuuruuurrddrruruurrrrdulddrrrr durddr uruldllldddlddldddrrurrrdrddrddurdllrddd uuuuuruuulruddddddldlulllllllllddddrrrl lullllduuulllldduldlluddllluuuurlluluulllluuullddrdddldddrrruuuullldduuruuuuruuluuuurrrudllluuudrrrdrrrrrrdrdrrdrddddddrluuuuurruurrrrrrrdrrrrrrdrdrrdrrrdllluullullulldldllrrdddrrrrdrrdddddddlurrddlluruuuuruuuuuurrruuuuulllrl  ddrdddlurd lrrllurru  dl u rrul     r  ldddld rrlr  dddud  duuudu dldlrulldur rrd u l d ur   duuudd  lllur  ldlddddlruuudd  rud lulrdrlrudl ruu dlull l rdlrddlll dudu    ulr url ddudlu   u  dllrrdulrulruudu rruul  luduldr ulrdldulrdl dr u ll u  l   rd ruluurullddu ulllr lddduudld lurru  lrldur lrlrlu ddldldudulrr uldldlr rl  u ulr ul lrdr l r d d uduurddlu drlrud l r l  lruu ll dudl r  ulrldld u rullrr ru   rruud rrld  du lddur  rrrd  lurrd lu dl ulllr u  u  ddr   dlur dur r dudllr rllr uurrrr ulrrlrd duludrudlrrl  luldl l d   dl r luuuullldrddrrlludd ldrllrrudu lulr lld llr    ulululrlulr rlurrlr rrrlr   rurdlluld ul  rr ruduur  lur rllddudrr ll rlrlrldul ldlr rdddl rururdd u dllrul dlll rluldd udld dur  u lr uuuurulurdd u  uulrl rdullddrulurrll rdurlrrl  d llrlrrduur",
     "outcome": "game-over",
-    "score": 408,
-    "diamonds_collected": 52,
+    "score": 409,
+    "diamonds_collected": 53,
     "butterflies_killed": 3,
     "streaks": 1,
-    "longest_streak": 47,
+    "longest_streak": 52,
     "duration_frames": 1200,
     "duration_time": 120,
     "ai_perf": {
         "processed": 1199,
-        "init_ms": 9,
-        "total_ms": 13805,
-        "max_ms": 92,
+        "init_ms": 8,
+        "total_ms": 17360,
+        "max_ms": 93,
         "dropped": 1,
-        "avg_ms": 12
+        "avg_ms": 14
     }
 }

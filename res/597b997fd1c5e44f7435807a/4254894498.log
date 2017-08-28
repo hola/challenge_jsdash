@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "luuuuulllddrurdddluuulllllllulddldldllddludrddllddrrrrrrrrdldrdlddrduulurrruluuulurrrrruuldldrddldllldllllllddludrdrdruulurrdddudrr   ",
+    "commands": "luuuuullllldlllluldlddldllddddlrrrulurrdrrrdddlldrlulllldlldrddrurddldlllulurrldlddlrddlulldllllluuullllururuulluurulluuuruldllludrrdrluuulldddrddl       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l       l     ",
     "outcome": "game-over",
-    "score": 26,
-    "diamonds_collected": 11,
+    "score": 49,
+    "diamonds_collected": 19,
     "butterflies_killed": 0,
-    "streaks": 1,
-    "longest_streak": 9,
-    "duration_frames": 134,
-    "duration_time": 13.4,
+    "streaks": 2,
+    "longest_streak": 10,
+    "duration_frames": 1200,
+    "duration_time": 120,
     "ai_perf": {
-        "processed": 134,
-        "init_ms": 5,
-        "total_ms": 145,
-        "max_ms": 28,
+        "processed": 1200,
+        "init_ms": 6,
+        "total_ms": 597,
+        "max_ms": 29,
         "dropped": 0,
-        "avg_ms": 1
+        "avg_ms": 0
     }
 }

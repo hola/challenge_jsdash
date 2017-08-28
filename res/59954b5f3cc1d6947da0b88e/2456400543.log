@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "     dddrluuuuuurdrulullllldlluuluuuluuuuruudurldllldlllldldlllddlllll       rrrrururuuurrllu  llurlldlrudurrdlrdurrurldrdrrldrrdruurduluurrdrurrdlrudlllduudrddullduldrddruduudlrulrlddduldddldlulrddululllluuruuurlddllullllllll  rdddddddrurruuurrldddrdrdrruluuuludrdrdrrrrrrururrudrdrdulllddlddlddllddlddrrurrrrrrdluuuuuurururddrruuuuuuluuuululrrrrdrdlrurrdrdurururrllddrddddrddllldldldlddlldrrdllrrdrrurrurruulullluururrurrrddl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+    "commands": "     dddrluuuuuurrdllllllllullrruuuluuluuuullddldlldddddlldluddddddrrdrrru           rulllllululllrllulllruuuuurrruruuldruruuurllru llllddd   ",
     "outcome": "game-over",
-    "score": 389,
-    "diamonds_collected": 54,
-    "butterflies_killed": 3,
-    "streaks": 2,
-    "longest_streak": 43,
-    "duration_frames": 1200,
-    "duration_time": 120,
+    "score": 20,
+    "diamonds_collected": 0,
+    "butterflies_killed": 2,
+    "streaks": 0,
+    "longest_streak": 0,
+    "duration_frames": 142,
+    "duration_time": 14.2,
     "ai_perf": {
-        "processed": 1200,
+        "processed": 142,
         "init_ms": 6,
-        "total_ms": 3341,
-        "max_ms": 78,
+        "total_ms": 695,
+        "max_ms": 53,
         "dropped": 0,
-        "avg_ms": 3
+        "avg_ms": 5
     }
 }

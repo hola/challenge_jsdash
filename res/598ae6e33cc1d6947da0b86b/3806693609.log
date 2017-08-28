@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "ulldddludddlddddlddlddlllllllludllddlldllllllluuluululruuddlldldrrdrrdrddlurrdrurrrrrrrrrduuuruuuuuulrddllulllrrrrrdurrdddrdddddluuuullddlduuuuullllluururuuuulululrdrududududdrddrrruuruuurrrrrrrdrrdrud",
+    "commands": "ulldddludddddlddlddlddludllllllllruddddllullduuld",
     "outcome": "game-over",
-    "score": 224,
-    "diamonds_collected": 38,
-    "butterflies_killed": 2,
-    "streaks": 2,
-    "longest_streak": 31,
-    "duration_frames": 201,
-    "duration_time": 20.1,
+    "score": 2,
+    "diamonds_collected": 2,
+    "butterflies_killed": 0,
+    "streaks": 0,
+    "longest_streak": 0,
+    "duration_frames": 49,
+    "duration_time": 4.9,
     "ai_perf": {
-        "processed": 201,
+        "processed": 49,
         "init_ms": 10,
-        "total_ms": 204,
-        "max_ms": 18,
+        "total_ms": 88,
+        "max_ms": 17,
         "dropped": 0,
-        "avg_ms": 1
+        "avg_ms": 2
     }
 }

@@ -43,7 +43,7 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "luuuuullllldlllluddddddddrdddlullllllluurruuuullllllludllddldlddllldlluulurullllduuuruuuuddddrdddrrddrdddrddddddrrdrrrrrurrurddrrrrudrrr  lluuuuulllrrdduurdddddrrrurruuuururuuuuuruurrdddddddddddrrrrrrlllluullulllldldllllldrlulllllllllllllllllllull   d  rrr   rrrruuldruluuluurururru ruur  uuu ull  lldrl lllrdrr        rrr rrr        rrdllll        r   rrr        rrr rrr        rrr rru        urr llr        rur urr        dlllrrr        drr lul        lll lll        lll ldl  ldlllllllllllllllrrrrrrdrrrrrrrrrrrrrrr rrr  l ru  lurdlru        urr rdd        rrr drr         lu uul        lll lll        lll lll        ldlldlllllll   lll ldrrrrrr   rrr rrd        dlr rrr    rrrrrrurrrlllulllllllllllllllllllddlrllll        rrr rrr        ldl dld        ldl ddr        rru urr l   ",
+    "commands": "luuuuullllldlllluddddddddrdddlullllllluurruuuullllllludllddldlddllldlluulurullllduuuruuuuddddrdddrrddrdddrddddddrrdrrrrrurrurddrrrrudrrr  lluuuuulllrrdduurdddddrrrurruuuururuuuuuruurrdddddddddddrrrrrrlllluullulllldldllllldrlulllllllllllllllllllull drr  rrr   rurduuldruluuluurururru ruur  uuu ull  lldrl lllrdrr        rrr rrr        rrdllll        r   rrr        rrr rrr        rrr rru        urr llr        rur urr        dlllrrr        drr lul        lll lll        lll ldl  ldlllllllllllllllrrrrrrdrrrrrrrrrrrrrrr rrr  l ru  lurdlru        urr rdd        rrr drr        luu ull        lll lll        lll lll        dlldllllllll   lll drrrrrr    rrr rrd        dlr rrr    rrrrrrurrrlllulllllllllllllllllllddlrllll        rrr rrr        ldl dld        ldl ddr        rru urr l   ",
     "outcome": "game-over",
     "score": 108,
     "diamonds_collected": 27,
@@ -53,11 +53,11 @@
     "duration_frames": 781,
     "duration_time": 78.1,
     "ai_perf": {
-        "processed": 776,
+        "processed": 780,
         "init_ms": 6,
-        "total_ms": 38066,
-        "max_ms": 103,
-        "dropped": 5,
-        "avg_ms": 49
+        "total_ms": 35763,
+        "max_ms": 110,
+        "dropped": 1,
+        "avg_ms": 46
     }
 }

@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": "rduudulllddldddllldldrrrrlddlddrrrduruuulrdrrduurdrddrddldlluuldldlddlddlllluuuulllllldduuuuuuuuluulluuudldddddrrddllluullllduuuuruuuuldulruuurrrrrrddrrrrrrdldddllldddrlrdduulllldllllllllulldddlldduldlrdrrrrrdulrdduuruuuuuluuuuuullldluurrrruuurlddddddrrdddruurudlddrrdddduruuuddduuurruuuuudddddudrrlluuurdlddrldluuulludddrrrrrrrduddddddudddluuuuddddllluulldlluuuuruuuuuudddrruuudduuuuululdulullrdddllddlludddluluddlurulluluuudrrruullrurrdddrdddrdduuuuuuuddrdddrdduuuddddruurrddrruuurrrrduddldrrduuluuluurrrllllrddrrrllluuuuuurrrrdrurrrdurdddlllldddddduuuddddluuuddddduulduuudduuuuuuuruldddddulldddrduuuddddduuddddllrrddduuuuulllldurrlldlruluuudddrrrddlluurruddlldddrdddlululduuuruuurrrurrrrrrrrurrrrruuuuruuullluduruulldldllldlddrrurdddldldludduduluuuuuuuuurdurdududulldudududlullldlurlllrrrlrdurdrdrrruududuldlullllrlrddurududlldurrulrrlrldldluddrrrdruuurlllldrruurdlddurdruuurdurrdudududududurldullldududurduduldduudurlrdududurrdudurldududulduldududurdudududrudududduududulrdududullrllrduduldrududurrdudurlrrrdurrddldrulrrurllrrrrrduudddlrlludrrruddrdlldlllrudrrlrrduuduuruduuldrlrdlulrdruuudlulrdllrurdrlduulrdldrruuuldurllddldrduurdruuddudllllldlulrdrrdurlrrulrrrudlldrruldllrrdlduururludddlddrud",
+    "commands": "rduudulllddldddllldldrrrrlddlddrrrduruuulrdrrduurdrddrddldlluuldldlddlddlllluuuulllllldduuuuuuuuluulluuudldddddrrddllluullllduuuuruuuuldulruuurrrrrrddrrrrrrdldddllldddrlrdduulllldllllllllulldddlldduldlrdrrrrrdulrdduuruuuuuluuuuuullldluurrrruuurlddddddrrdddruurudlddrrdddduruuuddduuurruuuuudddddudrrlluuurdlddrldluuulludddrrrrrrrduddddddudddluuuuddddllluullrldlluuuuruuuudrrrrluuddrrruuuluuuduullllldrddrddddrrruruuruuurluuurlldludddrdrrdddddddruuurrrudrddrldlldddrrulrrudlddddddluddlulrrrdrddlrurruuuulldrrddlruuulluuruuluuuluuurldddddrlddlddddduulllluldlll r dluulrudlulluururrrruruululllllluuuullrdddllddldluudddluluddlurulluluuudrrruullrurrddrddrldruduuuulllrullldr",
     "outcome": "game-over",
     "score": 243,
     "diamonds_collected": 49,
     "butterflies_killed": 1,
     "streaks": 4,
     "longest_streak": 31,
-    "duration_frames": 1200,
-    "duration_time": 120,
+    "duration_frames": 668,
+    "duration_time": 66.8,
     "ai_perf": {
-        "processed": 1200,
+        "processed": 668,
         "init_ms": 12,
-        "total_ms": 30962,
-        "max_ms": 77,
+        "total_ms": 6942,
+        "max_ms": 70,
         "dropped": 0,
-        "avg_ms": 26
+        "avg_ms": 10
     }
 }

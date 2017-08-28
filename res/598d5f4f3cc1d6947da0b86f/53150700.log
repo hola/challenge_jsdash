@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " lururrllrurruu                      rdluuuululluuullllllullllrrrrdrrdurrurrrdrdrrurrrrrdlddrdlllddllldlddlddrdrdrdrrdldlululrdlldddlluuulllluuuuullullddlldlllddulllddullullldldllldlldrrruuuuuururrruruuruuururruurrdrrrrruldlllddduruurrrdrrrrddlllllllduurrrrrrdruurrrrrrdldrrdlrurrddldllldrdrrrrrdrrdddddulllllulldlllldddrllulululluuullllllulluulullddllruruuulllluuruuuuurrdldurrurrlulurrduddrdrurrrdrudrrrrururlulduulluldrdudurrrurrldddlllurlrruldldlududrrdlrruduurluulllllduuululuuuuldurrlrdrrlluddrrrlrlurrldrurdlllurlrduulrdurrrrdrldlududduudduuudlrlrdluudrldrurrulurrurlruuddlrdluullddrlrrdlrrudrdrulldlddllrldddurdddlrlrddlddrlllllrdlurluurldrrddrrrrrdddrulrrllrruullduldduldrldlululldlldludrdlddluuulduldrlrdlrrlrrdllurrlddldluulrrldrdrrrdurdldudrldluudrurruurddluluudrldllldlrudurlrurullludrrlldrududrrdrldrllullduudrulduluuddrrurdrddluuuuluuurrrrulddldrdddrlrluuuldrlurrdururrrurlrrlrdrluuldududdulrdrrddllrruldllllrldrldrlduuuullrurrrululdduddrdudurrllululurlduurllludldrrdlulruddulullldulrurlrruduurlrlrrdrdluuldlruuuddldrrdduuurlrduuurrldldrldduuruludrruullduddurrlrdlrllluuudurrludlrlurlldlldrllrrrdrudlurrruluululdlddulddldlrruuudllrrullururddrdddduuudruuuulrlududddlrrururrdllldudduulll",
+    "commands": " dulllruurrrrruu                     rdluuuululluuullllllullllrrrrdrrdurrurrrdrdddddddddlddrdrdrdrrdldlululrdlldddlluuulllluuuuullullddlldlllddulllddullullldldllldlldrrruuuuuururrruruuruuururruurrdrrrrruldlludldddlllldldllddruruululllllluruuuuurrdlddrrdrrrrrddrrddrrudrrrururrurdlldlddrrrdrrrrulluluuluurrrrrrrrrrrrrrduuululddlddddddlddddrdrdddulllllulldldlddllllluluuluuullllllllllluudlllrrlllllllduurudrluddruudduuullrldddluruudlruudlulrduludluddruduuurldduuddrrrudlulduuuuludluuudrdududllddddudrluudlrddrluldrululurlluudlrdurulululdurruullduuuurrdrrduduuurllllldrldlulrrulrdrrllrulurrduuddulllddrruldddulllldurrdduulrullduluurlrdddllulrudllulluuulullrluuudrurlulullrlrurulllrduluuuullldrdlrlurudrrrurrdlrrrrluulruuuuudururudllurrdlllrldrrdudluudduulllrlrluurluddrlrdluldullldrdddludlurddrrrdldlullddulllduududrldururldlurrdrlrlrllrrdlrulldlldrruludrlurdullldldrdrlduurduurddllrldurldlurlrruddrlddddluludrlruddrllrrduudddlldlrurululddldullllrddruluurulrddlrlrdddluluulddludrdruurluldldrdulllrrlrduuullldddddurururldrluurldurlrlrruulurlrdddlulllrrduudurrluldlllulurduululldruuldudrldudrrrrudurduluddrurldlduldrlrdududrdrrullrdurrduudrrldrdrdurdllludldurlldlddldlrudrurludddddrldudruulrduldlrrllllrld",
     "outcome": "game-over",
-    "score": 291,
+    "score": 280,
     "diamonds_collected": 58,
     "butterflies_killed": 3,
-    "streaks": 4,
-    "longest_streak": 35,
+    "streaks": 3,
+    "longest_streak": 30,
     "duration_frames": 1200,
     "duration_time": 120,
     "ai_perf": {
         "processed": 1200,
-        "init_ms": 8,
-        "total_ms": 17249,
-        "max_ms": 66,
+        "init_ms": 7,
+        "total_ms": 15106,
+        "max_ms": 65,
         "dropped": 0,
-        "avg_ms": 14
+        "avg_ms": 13
     }
 }

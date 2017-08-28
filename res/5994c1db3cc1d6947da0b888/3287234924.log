@@ -53,11 +53,11 @@
     "duration_frames": 1200,
     "duration_time": 120,
     "ai_perf": {
-        "processed": 464,
-        "init_ms": 17,
-        "total_ms": 73930,
-        "max_ms": 73829,
-        "dropped": 736,
-        "avg_ms": 159
+        "processed": 467,
+        "init_ms": 15,
+        "total_ms": 73597,
+        "max_ms": 73519,
+        "dropped": 733,
+        "avg_ms": 158
     }
 }

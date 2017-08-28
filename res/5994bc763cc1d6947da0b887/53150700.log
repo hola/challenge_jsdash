@@ -43,21 +43,21 @@
     "limit_time": 120,
     "interval": 100,
     "fps": 10,
-    "commands": " uq",
+    "commands": "u uq",
     "outcome": "quit",
     "score": 0,
     "diamonds_collected": 0,
     "butterflies_killed": 0,
     "streaks": 0,
     "longest_streak": 0,
-    "duration_frames": 3,
-    "duration_time": 0.3,
+    "duration_frames": 4,
+    "duration_time": 0.4,
     "ai_perf": {
-        "processed": 2,
+        "processed": 3,
         "init_ms": 7,
-        "total_ms": 83,
-        "max_ms": 78,
+        "total_ms": 182,
+        "max_ms": 111,
         "dropped": 1,
-        "avg_ms": 42
+        "avg_ms": 61
     }
 }
