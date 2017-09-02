@@ -1,0 +1,63 @@
+{
+    "cave_source": "generated",
+    "seed": 501422866,
+    "geometry": {
+        "w": 40,
+        "h": 22
+    },
+    "butterflies": 3,
+    "ingredients": {
+        " ": 25,
+        ":": 50,
+        "+": 10,
+        "O": 10,
+        "*": 5
+    },
+    "cave": [
+        "########################################",
+        "# +::*+:: : ++: ::O+O * ++O:: : +:*::::#",
+        "#O:*O+ : ::  +O:+   :: :::*/ *O  O:::::#",
+        "#:O+::: O :O: : :  O:O:   :  ::+*+: :OO#",
+        "#:  +::: +::::+ :O+:::::*::O : O : :: *#",
+        "#::O+:  :: : ::: O :*O+O:  +: :::    ::#",
+        "#*:  +:* ::  ::  : :: ::+:  :::::::::::#",
+        "#:: O+:   ++:: :O:::    :*:O O ::+ / ::#",
+        "#::*:: : O:+:O**O:  :O:::O::  *:O:O  : #",
+        "#O:::O::: : OO: : *  ::: * :::O:::+:O :#",
+        "#:: :**:::: O::+: :OOO*+::*:++: + :::: #",
+        "#+:O::::: :::*::+O :: ::* :: +: :*+    #",
+        "#   ::+:::::::/ O:::: *:O   :+:: ::O ::#",
+        "#:: :::  :+O:     : ::::+: : ::::: ::: #",
+        "#  + :+ :*::: :  *+ O:    O: O* :: : :O#",
+        "#OO::+:::: : *:+::: : O::    *: + ::+*:#",
+        "#: +::  :** +O::: ::: :*: :: : +::: :  #",
+        "#:* :: :::O++::+:::: ::::::: :: :O:::: #",
+        "#::+:::O+: OO OO+: :O +: ::::++O:   :O:#",
+        "# O::OO:+:O  *::+OO::: *O::::  O+O:+O::#",
+        "#+:::    O::: :  :*:: ::O :  : O ::::OA#",
+        "########################################"
+    ],
+    "controller": "script",
+    "script": "599353073cc1d6947da0b87c/solution.js",
+    "limit_frames": 1200,
+    "limit_time": 120,
+    "interval": 100,
+    "fps": 10,
+    "commands": " u l u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u l u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u l u u u u u u u u u u u u u u u u u u u u u u u u u l u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u",
+    "outcome": "game-over",
+    "score": 0,
+    "diamonds_collected": 0,
+    "butterflies_killed": 0,
+    "streaks": 0,
+    "longest_streak": 0,
+    "duration_frames": 1200,
+    "duration_time": 120,
+    "ai_perf": {
+        "processed": 600,
+        "init_ms": 5,
+        "total_ms": 85876,
+        "max_ms": 168,
+        "dropped": 600,
+        "avg_ms": 143
+    }
+}

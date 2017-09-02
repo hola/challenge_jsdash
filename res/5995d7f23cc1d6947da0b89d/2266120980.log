@@ -1,0 +1,63 @@
+{
+    "cave_source": "generated",
+    "seed": 2266120980,
+    "geometry": {
+        "w": 40,
+        "h": 22
+    },
+    "butterflies": 3,
+    "ingredients": {
+        " ": 25,
+        ":": 50,
+        "+": 10,
+        "O": 10,
+        "*": 5
+    },
+    "cave": [
+        "########################################",
+        "# O:::++::+ :   +: O+:++ ::: : :O: ::::#",
+        "# :: :/ : O: :**O: ::O::O *+O:: :   : +#",
+        "#:* ++  : :O: ::: :::+ :  + ::::: O::: #",
+        "# +++A:O::O: : ::: :: : :*O:+  + + : : #",
+        "#:: : :  :::+: ::+O::O::O:::++:: +::: :#",
+        "# : :::*:   ::::** ::::::O*:::* ::+:::*#",
+        "#: :  O *::* *:+ :+ :O::: +:: ::O : :: #",
+        "#:O::::::+ :  ::O::   + ::::::::::::: *#",
+        "#O: :: + ++:::+  :+:: :::::::::::O ::::#",
+        "#:   :: OO:++:    :  :: *::::: :::::+*O#",
+        "#*+ +:: :::   :::**:*+ *OO ::: : O:+:/ #",
+        "#:::: : O:::+: ::  : ::::  :+ *:** :*  #",
+        "#:*+:O*:++/  : : : +*  +: O+:O::+ : : :#",
+        "#+:: :  O:  : ::::::  +O: *::::: O::: :#",
+        "#+:: :::+   +O:::   :+ :: O::*:: O:O: :#",
+        "#O:::::::O  :: +OO + :::*  ::: :: :OO O#",
+        "# ::+:::: ::  :::::: ::* ::: :::++ :*::#",
+        "# O:::+:+:*:  :+:O ::::::+:  : : O :O  #",
+        "# : O:+  +:+: +    O  O::+ : :O::* O:+O#",
+        "#: +::OO:: *: : + :*::: +*+ +: :+:   ::#",
+        "########################################"
+    ],
+    "controller": "script",
+    "script": "5995d7f23cc1d6947da0b89d/solution.js",
+    "limit_frames": 1200,
+    "limit_time": 120,
+    "interval": 100,
+    "fps": 10,
+    "commands": "dlllluurlddrdrrrddrrurrrrrrdddrrdrdrrddrrruurururuuuurruluudrdrdrrrddddddrrrdrurrdrddddlldllduruuuldlllulddlllludlldlldldllullldllllluuddlluluuuuullllluuluururruurrrrrrrrurrrrrluuululrrrrrdrdrrrrrrdrdrrrrrrdrrrrrd           lllllrudlllllurdldldlllluudlldlluullludlddrrldlluurrdrduldllllllludrdlllur rdull rrddddrddluluddrrrddrdd             uu  ur  rr  rr  rr  rr  ur  ur  ur  rr  rr  ru  ur  uu  uu  ur  rr  ru  uu                                                                                                                                                                                                                                                                                                             q",
+    "outcome": "quit",
+    "score": 257,
+    "diamonds_collected": 50,
+    "butterflies_killed": 2,
+    "streaks": 3,
+    "longest_streak": 33,
+    "duration_frames": 717,
+    "duration_time": 71.7,
+    "ai_perf": {
+        "processed": 717,
+        "init_ms": 6,
+        "total_ms": 9809,
+        "max_ms": 54,
+        "dropped": 0,
+        "avg_ms": 14
+    }
+}

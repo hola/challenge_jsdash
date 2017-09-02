@@ -1,4 +1,4 @@
-*[Previous post](04-preliminary-standings-2017-08-10.md)*
+*[Previous post](04-preliminary-standings-2017-08-10.md)* | *[Next post](06-winners.md)*
 
 # Final Standings
 

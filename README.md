@@ -10,17 +10,23 @@ Welcome to Hola programming challenge! Here is the current status:
 - [x] Publish [all solutions](submissions)
 - [x] Test all solutions
 - [x] Publish [final standings](blog/05-final-standings.md)
-- [ ] Test the solutions on more levels.
-- [ ] Publish the extended test results.
-- [ ] Disclose participants and award winners
+- [x] Test the solutions on more levels.
+- [x] Publish the extended [test results](res).
+- [x] Disclose participants and award [winners](blog/06-winners.md)
 
 To make repeated publications more manageable, the monolithic README has been converted to a blog-like collection of documents.
 
 Contact us: challengejs@hola.org.
 
+## [Winners](blog/06-winners.md)
+
+Published the results of extended testing and awarded the winners.
+
+*Published on September 2, 2017*
+
 ## [Final standings](blog/05-final-standings.md)
 
-All solutions are now published and tested. Participants will be disclosed, and winners awarded, on August 31.
+All solutions are now published and tested.
 
 *Published on August 26, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/336448/))*
 
