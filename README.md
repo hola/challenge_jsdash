@@ -22,7 +22,7 @@ Contact us: challengejs@hola.org.
 
 Published the results of extended testing and awarded the winners.
 
-*Published on September 2, 2017*
+*Published on September 2, 2017 ([Russian version](https://habrahabr.ru/company/hola/blog/336988/))*
 
 ## [Final standings](blog/05-final-standings.md)
 

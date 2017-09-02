@@ -2,6 +2,8 @@
 
 # Winners
 
+*See also the [Russian version](https://habrahabr.ru/company/hola/blog/336988/) of this page.*
+
 Before the contest was closed on August 17, we received 132 submissions from 66 unique participants. Today we are publishing the final results, disclosing the participant's names or nicknames, and awarding the winners.
 
 Three of the participants are affiliated with Hola and were therefore considered out-of-contest.
